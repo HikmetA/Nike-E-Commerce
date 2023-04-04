@@ -2,6 +2,7 @@ import React from 'react'
 import { Hero, Sales, FlexContent, Stories, Footer, Navbar } from './components'
 import Cart from './components/Cart'
 import { heroapi, popularsales, toprateslaes, highlight, sneaker, story, footerAPI } from './data/data.js'
+import "./index.css";
 
 const App = () => {
   return (

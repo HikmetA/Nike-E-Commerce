@@ -20,16 +20,14 @@ const Search = () => {
       window.removeEventListener("scroll", onNavScroll);
     };
   }, []);
-
-
   return (
     <>
       <div className="flex justify-center right-[90px] ml-40 absolute">
-        <div className="xl:w-96 lg:w-76 md:w-56">
+        <div className="xl:w-56 lg:w-56 md:w-40">
           <div className="flex w-full flex-wrap">
             <input
               type="search"
-              className=" block w-[1%] min-w-0 flex-auto rounded border border-solid border-neutral-300 bg-transparent bg-clip-padding px-3 py-1.5 text-base font-normal text-neutral-100 outline-none transition duration-300 ease-in-out focus:border-primary-600 focus:text-neutral-100 focus:shadow-te-primary focus:outline-none dark:border-neutral-100 dark:text-neutral-200 dark:placeholder:text-neutral-200"
+              className={`block w-[1%] min-w-0 flex-auto rounded border border-solid bg-transparent bg-clip-padding px-3 py-1.5 text-base font-normal outline-none transition duration-300 ease-in-out focus:border-primary-600 focus:shadow-te-primary focus:outline-none   ${navState ? "border-neutral-900 text-neutral-900 focus:text-neutral-900 dark:border-neutral-900 dark:text-neutral-900 dark:placeholder:text-neutral-900" : "border-neutral-300 text-neutral-100 focus:text-neutral-100 dark:border-neutral-100 dark:text-neutral-200 dark:placeholder:text-neutral-200"}`}
               placeholder="Search"
               aria-label="Search"
               aria-describedby="button-addon2"
@@ -44,7 +42,7 @@ const Search = () => {
           </div>
         </div>
       </div>
-      <div className="mt-[15px] grid grid-cols-6 xl:grid-cols-5 lg:grid-cols-3 overflow-hidden md:grid-cols-2 sm:grid-cols-1">
+      <div className="absolute top-[40px] mt-[15px] grid grid-cols-6 xl:grid-cols-5 lg:grid-cols-3 overflow-hidden md:grid-cols-2 sm:grid-cols-1 ">
         {toprateslaes.items
           .filter((val) => {
             if (searchTerm == "") {
@@ -57,7 +55,7 @@ const Search = () => {
           })
           .map((val) => {
             return (
-              <div className="flex blur-effect-theme w-full z-[250]">
+              <div className="flex z-[250] mb-5 mr-20 w-60">
                 <Item
                   color={val.color}
                   shadow={val.shadow}

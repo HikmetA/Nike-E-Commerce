@@ -37,11 +37,10 @@ const heroapi = {
     { imgsrc: vcover3, clip: clip },
   ],
   sociallinks: [
-    { icon: facebook },
-    { icon: messenger },
-    { icon: instagram },
+    { icon: facebook, url: "https://www.facebook.com/nike/?locale=ru_RU" },
+    { icon: instagram, url: "https://www.instagram.com/nike/" },
     { icon: twitter },
-    { icon: youtube },
+    { icon: youtube, url: "https://www.youtube.com/user/nike/videos" },
   ],
 };
 
@@ -342,28 +341,15 @@ const footerAPI = {
   titles: [ {title: "About Nike"},{title: "Get Help"},{title: "Company"} ],
   links: [
     [
-      {link: "News"},
-      {link: "Careers"},
-      {link: "Investors"},
-      {link: "Prupose"},
-      {link: "Sustainability"},
+      {link: "News", url: "https://about.nike.com/en/newsroom"},
+      {link: "Careers", url: "https://jobs.nike.com/"},
+      {link: "Investors", url: "https://investors.nike.com/Home/default.aspx"},
     ],
     [
-      {link: "Order Status"},
-      {link: "Shipping & Delivery"},
-      {link: "Payment Options"},
-      {link: "Gift Card Balance"},
-      {link: "Contact Us"},
-      {link: "FAQ"},
-      {link: "Blog"},
+      {link: "Blog", url: "https://www.nike.com/launch"},
     ],
     [
-      {link: "Gift Cards"},
-      {link: "Promotions"},
-      {link: "Find A Store"},
-      {link: "Signup"},
-      {link: "Nike Jouneral"},
-      {link: "Send Us Feeback"},
+      {link: "Nike Jouneral", url: "https://www.nike.com/stories"},
     ],
   ]
 };

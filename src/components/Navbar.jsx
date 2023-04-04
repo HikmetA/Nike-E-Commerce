@@ -77,8 +77,9 @@ const Navbar = () => {
               </button>
             </li>
           </ul>
+          <Search
+          />
         </nav>
-          <Search />
       </header>
     </>
   );

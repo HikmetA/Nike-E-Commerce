@@ -14,7 +14,7 @@ const Footer = ({footerAPI: {titles, links}}) => {
                 {links.map((list, i) => (
                     <ul key={i} className='grid items-center gap-1'>
                        {list.map((link, i) => (
-                        <li key={i} className='text-sm sm:text-xs'><a href="">{link.link}</a></li>
+                        <li key={i} className='text-sm sm:text-xs'><a href={link.url} target='_blank'>{link.link}</a></li>
                        ))} 
                     </ul>
                 ))}
