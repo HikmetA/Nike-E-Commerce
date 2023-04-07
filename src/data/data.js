@@ -24,7 +24,6 @@ import { facebook } from "../assets";
 import { instagram } from "../assets";
 import { twitter } from "../assets";
 import { youtube } from "../assets";
-import { messenger } from "../assets";
 
 const heroapi = {
   title: "Play With Electric Nike",
@@ -88,7 +87,7 @@ const highlight = {
   title: "NIKE AIR WITH LIMITLESS CHOICES",
   text: "Our Purpose is to move the world forward. We take action by building community, protecting our planet and increasing access to sport.",
   btn: "Explore More",
-  url: "https://www.nike.com/launch/t/nocta-hot-step-black-gold",
+  url: "https://www.nike.com/ca/launch/t/nocta-hot-step-black-gold",
   img: hightlightimg,
 };
 

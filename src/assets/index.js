@@ -1,5 +1,4 @@
 import heroimg from "../assets/hero.png";
-
 import hightlightimg from "../assets/hightlightimg.png";
 import sneakershoe from "../assets/sneaker.png";
 
@@ -30,7 +29,6 @@ import facebook from "../assets/facebook.svg";
 import instagram from "../assets/instagram.svg";
 import twitter from "../assets/twitter.svg";
 import youtube from "../assets/youtube.svg";
-import messenger from "../assets/messenger.svg";
 
 export {
     heroimg,
@@ -59,6 +57,5 @@ export {
     instagram,
     twitter,
     youtube,
-    messenger
 
 };

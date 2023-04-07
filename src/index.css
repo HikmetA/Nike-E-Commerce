@@ -46,7 +46,6 @@
   .bg-theme-cart {
     @apply bg-gradient-to-b from-slate-900 to-gray-900 shadow-sm shadow-gray-900;
   }
-
   /* Clip-path */
   .clip-path {
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 65%);
